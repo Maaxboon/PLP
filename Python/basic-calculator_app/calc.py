@@ -19,3 +19,10 @@ while True:
     except ValueError:
         print("That's not a number! Please enter a valid number.")
 
+# Ask the user to select the application
+while True:
+    operation = input("Enter the operation (+, -, *, /): ")
+    if operation in ["+", "-", "*", "/"]:
+        break
+    else:
+        print("Invalid operation! Please enter one of +, -, *, /")
