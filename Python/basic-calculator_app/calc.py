@@ -26,3 +26,20 @@ while True:
         break
     else:
         print("Invalid operation! Please enter one of +, -, *, /")
+
+# Performing the calculation
+if operation == "+":
+    result = num1 + num2
+    print(f"{num1} + {num2} = {result}")
+elif operation == "-":
+    result = num1 - num2
+    print(f"{num1} - {num2} = {result}")
+elif operation == "/":
+    result = num1 / num2
+    print(f"{num1} / {num2} = {result}")
+elif operation == "*":
+    result = num1 * num2
+    print(f"{num1} * {num2} = {result}")
+
+
+
